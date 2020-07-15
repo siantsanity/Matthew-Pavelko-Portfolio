@@ -1,0 +1,64 @@
+body {
+  background-color: #2f3061;
+  margin: 0;
+  background-image: url("images/background.jpg")
+}
+
+header {
+  text-align: center;
+  color: whitesmoke;
+  height: 100px;
+  background-color: #3c6997;
+  border-bottom: 2px solid black;
+  line-height: 2em;
+   background-image: url ("images/background.jpg")
+}
+
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 5%;
+}
+
+
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  background-color: #3c6997;
+
+}
+
+article {
+  color: whitesmoke;
+  font-size: 25px;
+  line-height: 1em;
+  padding: 0 25%;
+  margin: 80 0;
+}
+
+main h2 {
+  font-size: 30px;
+  text-align:center;
+  color: whitesmoke
+}
+
+img {
+  width: 100%;	
+  border-radius: 8px;
+  border: 1px solid #094074;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
