@@ -33,7 +33,7 @@ h2 {
 hr {
   height: 20px;
   background-color: black;
-  border: #2f3061;
+  border: #f26df9;
 }
 
 a {
@@ -42,12 +42,31 @@ a {
 }
 
 a:link { color: blue }
-a:visited { color: green }
+a:visited { color: black }
 a:hover { color: red }
 a:active { color: pink }
 a:hover {
 	text-decoration: underline;
 }
+
+.btn {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+
 
 footer p {
   text-align: center;
@@ -70,6 +89,7 @@ main h2 {
   text-align:center;
   color: white;
   line-height: 3em;
+  padding: 1em;
 }
 
 img {
