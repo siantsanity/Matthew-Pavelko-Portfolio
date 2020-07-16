@@ -1,19 +1,19 @@
 body {
   background-color: #2f3061;
   margin: 0;
-  background-image: url("images/background.jpg")
+  background-image: url("images/code.jpg")
 }
 
-header {
+header h1 {
   text-align: center;
-  color: whitesmoke;
+  color: black;
   height: 100px;
-  background-color: #3c6997;
+  background-color: #03294e;
   border-bottom: 2px solid black;
   line-height: 2em;
-   background-image: url ("images/background.jpg")
+  background-image: url ("images/code.jpg");
+  margin: 0;
 }
-
 
 header h1 {
   text-align: center;
@@ -21,27 +21,55 @@ header h1 {
   padding: 5%;
 }
 
+h2 {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  line-height: 1 em;
+}
 
+
+hr {
+  height: 20px;
+  background-color: black;
+  border: #2f3061;
+}
+
+a {
+  font-weight: 500px;
+  text-decoration: white;
+}
+
+a:link { color: blue }
+a:visited { color: green }
+a:hover { color: red }
+a:active { color: pink }
+a:hover {
+	text-decoration: underline;
+}
 
 footer p {
   text-align: center;
   font-size: 15px;
   background-color: #3c6997;
-
+  margin: 0;
 }
 
 article {
-  color: whitesmoke;
+  color: white;
   font-size: 25px;
   line-height: 1em;
   padding: 0 25%;
   margin: 80 0;
+  font-style: oblique;
 }
 
 main h2 {
   font-size: 30px;
   text-align:center;
-  color: whitesmoke
+  color: white;
+  line-height: 3em;
 }
 
 img {
