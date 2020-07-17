@@ -1,40 +1,64 @@
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+
+/* general styles */
+
+/* Web page background */
+
 body {
   background-color: #2f3061;
   margin: 0;
   background-image: url("images/code.jpg")
 }
 
-header h1 {
+/* name / logo */
+
+.logo {
+  font-size: 40px;
   text-align: center;
-  color: black;
+  color: white;
   height: 100px;
   background-color: #03294e;
   border-bottom: 2px solid black;
   line-height: 2em;
   background-image: url ("images/code.jpg");
-  margin: 0;
+  margin: 5%;
 }
 
-header h1 {
+header h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 15px;
   padding: 5%;
+  color: white;
+  text-shadow: 2px 2px #03294e;
 }
 
-h2 {
+/* software developer */
+
+h1 {
   font-size: 15px;
   font-style: italic;
-  text-align: center;
   color: white;
-  line-height: 1 em;
 }
 
+
+
+/* page break */
 
 hr {
   height: 20px;
   background-color: black;
   border: #f26df9;
+  margin: 10%;
 }
+
+/* links / style */ 
 
 a {
   font-weight: 500px;
@@ -45,9 +69,8 @@ a:link { color: blue }
 a:visited { color: black }
 a:hover { color: red }
 a:active { color: pink }
-a:hover {
-	text-decoration: underline;
-}
+
+/* buttons for links */
 
 .btn {
   display: inline-block;
@@ -62,18 +85,21 @@ a:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: white;
   border-color: #2e6da4;
 }
 
-
+/* copywrite / background image credit */
 
 footer p {
   text-align: center;
   font-size: 15px;
   background-color: #3c6997;
   margin: 0;
+  padding: 1%;
 }
+
+/* about me / text styling */
 
 article {
   color: white;
@@ -81,27 +107,27 @@ article {
   line-height: 1em;
   padding: 0 25%;
   margin: 80 0;
-  font-style: oblique;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px black;
 }
 
 main h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-align:center;
   color: white;
-  line-height: 3em;
-  padding: 1em;
+  line-height: 1em;
+  text-shadow: 2px 2px black;
+  margin: 10%;
 }
+
+/* image dimentions */
 
 img {
   width: 100%;	
   border-radius: 8px;
   border: 1px solid #094074;
 }
-
-
-
-
-
 
 
 
