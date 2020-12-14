@@ -1,3 +1,5 @@
+
+
 /* 
 	STYLE.CSS:
 	One stylesheet to rule them all.
@@ -14,7 +16,8 @@
 body {
   background-color: #2f3061;
   margin: 0;
-  background-image: url("images/code.jpg")
+  background-image: url("images/code.jpg");
+  background-size: cover;
 }
 
 /* name / logo */
@@ -31,22 +34,15 @@ body {
   margin: 5%;
 }
 
-header h2 {
+header h1, h2, h3, h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   padding: 5%;
   color: white;
-  text-shadow: 2px 2px #03294e;
 }
 
 /* software developer */
-
-h1 {
-  font-size: 15px;
-  font-style: italic;
-  color: white;
-}
-
 
 
 /* page break */
@@ -101,15 +97,14 @@ footer p {
 
 /* about me / text styling */
 
-article {
+section {
   color: white;
   font-size: 25px;
   line-height: 1em;
   padding: 0 25%;
   margin: 80 0;
   font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-shadow: 1px 1px black;
+  font-family: Cambria, serif;
 }
 
 main h2 {
@@ -117,8 +112,8 @@ main h2 {
   text-align:center;
   color: white;
   line-height: 1em;
-  text-shadow: 2px 2px black;
   margin: 10%;
+  padding: 0 0 15%;
 }
 
 /* image dimentions */
@@ -126,8 +121,9 @@ main h2 {
 img {
   width: 100%;	
   border-radius: 8px;
-  border: 1px solid #094074;
+  padding: 0 0 15%;
 }
+
 
 
 
