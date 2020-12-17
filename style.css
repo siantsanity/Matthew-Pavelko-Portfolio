@@ -14,7 +14,7 @@
 /* Web page background */
 
 body {
-  background-color: #2f3061;
+  background-color: #095256;
   margin: 0;
   background-image: url("images/ferns.jpeg");
   background-size: cover;
@@ -27,7 +27,7 @@ body {
   text-align: center;
   color: white;
   height: 100px;
-  background-color: #03294e;
+  background-color: #095256;
   border-bottom: 2px solid black;
   line-height: 2em;
   background-image: url ("images/ferns.jpeg");
@@ -90,7 +90,7 @@ a:active { color: pink }
 footer p {
   text-align: center;
   font-size: 15px;
-  background-color: #3c6997;
+  background-color: #095256;
   margin: 0;
   padding: 1%;
 }
