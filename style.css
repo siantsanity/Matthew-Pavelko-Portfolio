@@ -71,7 +71,7 @@ a:active { color: pink }
 .btn {
   display: inline-block;
   font-family: arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   margin: 10px;
@@ -89,7 +89,7 @@ a:active { color: pink }
 
 footer p {
   text-align: center;
-  font-size: 1em;
+  font-size: 20px;
   font-family: arial, sans-serif;
   color: white;
   background-color: #095256;
