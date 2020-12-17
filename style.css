@@ -89,10 +89,10 @@ a:active { color: pink }
 
 footer p {
   text-align: center;
-  font-size: 15px;
+  font-size: 20em;
   background-color: #095256;
   margin: 0;
-  padding: 1%;
+  padding: 10% 0;
 }
 
 /* about me / text styling */
